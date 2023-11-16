@@ -1,0 +1,40 @@
+@import "../../utilis";
+
+@include xxl{
+  .containerMain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .upakovka{
+    margin-left: 46px;
+    display: flex;
+  }
+
+  .PartOne{
+    color: #FF89A9;
+    font-family: Franklin Gothic Demi, serif;
+    font-size: 290px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -18.85px;
+    text-transform: uppercase;
+  }
+
+  .PartTwo{
+    color: #292929;
+    font-family: Franklin Gothic Demi, serif;
+    font-size: 290px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -18.85px;
+    text-transform: uppercase;
+  }
+
+  .info{
+    display: flex;
+  }
+}
