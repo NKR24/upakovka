@@ -1,18 +1,21 @@
 @import "../../utilis";
 
-@include xxl{
-  .containerMain{
+@include xxl {
+  .containerMain {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
 
-  .upakovka{
+  .upakovka {
+    width: 1273px;
+    height: 329px;
     margin-left: 46px;
     display: flex;
+    flex-direction: row;
   }
 
-  .PartOne{
+  .up {
     color: #FF89A9;
     font-family: Franklin Gothic Demi, serif;
     font-size: 290px;
@@ -23,7 +26,7 @@
     text-transform: uppercase;
   }
 
-  .PartTwo{
+  .akovka {
     color: #292929;
     font-family: Franklin Gothic Demi, serif;
     font-size: 290px;
@@ -34,7 +37,30 @@
     text-transform: uppercase;
   }
 
-  .info{
+  .info {
     display: flex;
+    column-gap: 32px;
+    margin-left: 46px;
+  }
+
+  .box {
+    display: inline-flex;
+    padding: 16px 82px 17px 83px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 63.636px;
+    border: 3.818px solid #FF89A9;
+    width: 264px;
+    height: 73px;
+    margin-top: 250px;
+  }
+
+  .text {
+    color: #110D24;
+    font-family: Franklin Gothic Demi, serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
 }
