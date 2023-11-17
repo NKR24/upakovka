@@ -6,6 +6,13 @@ export default function Home(){
         <>
             <Title>UPAKOVKA</Title>
             <MainPage />
+            <Section1 />
         </>
+    )
+}
+
+function Section1(){
+    return(
+        <></>
     )
 }

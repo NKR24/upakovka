@@ -2,5 +2,12 @@
     font-family: "Franklin Gothic Demi";
     font-style: normal;
     font-weight: 400;
-    src: url("Franklin-Gothic-Demi.otf") format("opentype");
+    src: url("./Franklin-Gothic-Demi.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Franklin Gothic Demi";
+    font-style: normal;
+    font-weight: 600;
+    src: url("./Franklin-Gothic-Demi-Bald.otf") format("opentype");
 }

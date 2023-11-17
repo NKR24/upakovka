@@ -1,8 +1,8 @@
 import styles from "./styles.module.scss"
 import clsx from "clsx";
 
-export default function MainPage(){
-    return(
+export default function MainPage() {
+    return (
         <>
             <div class={styles.containerMain}>
                 <div class={styles.containerSection}>
@@ -17,6 +17,13 @@ export default function MainPage(){
                         <div class={clsx(styles.box, styles.Two)}>
                             <p class={styles.text}>Свечи</p>
                         </div>
+                    </div>
+                    <div class={styles.project}>
+                        <p class={styles.textProject}>запросить проект</p>
+                    </div>
+                    <div class={styles.final}>
+                        <p class={styles.textFinal}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore</p>
                     </div>
                 </div>
             </div>
